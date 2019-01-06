@@ -8,5 +8,6 @@ require_once ('view/top.php');
     <p><textarea name="description" placeholder="description"><?php print_desc(); ?></textarea></p>
     <p><input type="submit"></p>
   </form>
-</body>
-</html>
+<?php 
+require_once ('view/bottom.php');
+?>
